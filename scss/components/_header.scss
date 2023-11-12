@@ -1,0 +1,101 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 92%;
+    margin: 0 auto;
+
+    li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.header__logo h1{
+    margin: 0;
+}
+.header__account {
+    display: flex;
+    align-items: center;
+}
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
+
+@media (max-width: 1920px) {
+    .header__nav a{
+        font-size: 16px;
+    }
+    .header__account a{
+        font-size: 16px;
+    }
+    .header__logo h1{
+        font-size: 32px;
+    }
+}
+@media (max-width: 1280px) {
+    .header__nav a{
+        font-size: 13px;
+    }
+    .header__account a{
+        font-size: 13px;
+    }
+    .header__logo h1{
+        font-size: 26px;
+    }
+}
+@media (max-width: 1000px) {
+    .header__nav a{
+        font-size: 11px;
+    }
+    .header__account a{
+        font-size: 11px;
+    }
+    .header__logo h1{
+        font-size: 20px;
+    }
+}
+@media (max-width: 768px) {
+    .header__account {
+        a {
+            font-size: 8px; 
+        }
+        img {
+            width: 16px;
+            height: 16px;
+        }
+    }
+    .header__nav {
+        width: 45%;
+
+        a {
+            font-size: 8px;
+        }
+    }
+    .header__logo h1{
+        font-size: 16px;
+    }
+}
+@media (max-width: 480px) {
+    .header__account {
+        a {
+            font-size: 8px;
+        }
+        img {
+            width: 14px;
+            height: 14px;
+        }
+    }
+    .header__nav {
+        width: 45%;
+
+        a {
+            font-size: 8px;
+        }
+    }
+    .header__logo h1{
+        font-size: 12px;
+    }
+}

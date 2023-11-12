@@ -1,0 +1,115 @@
+.content-start{
+    width: 55%;
+    height: 1000px;
+    margin: 198px auto 0 auto;
+
+    h1 {
+        font-size: 88px;
+        font-weight: 600;
+        line-height: 100px;
+        margin: 32px 0;
+    }
+    h2 {
+        color: #FBD784;
+        font-size: 18px;
+        letter-spacing: 6px;
+        margin: 0;
+        font-weight: 800;
+    }
+}
+
+@media (max-width: 1920px) {
+    .content-start {
+        h1 {
+            font-size: 70px;
+            line-height: 100px;
+        }
+        h2 {
+            font-size: 18px;
+            letter-spacing: 6px;
+        }
+    }
+}
+@media (max-width: 1280px) {
+    .content-start {
+        margin: 160px auto 0 auto;
+        height: 600px;
+        font-size: 13px;
+
+        h1 {
+            font-size: 55px;
+            line-height: 80px;
+        }
+        img {
+            width: 20px;
+            height: 14px;
+        }
+        h2 {
+            font-size: 14px;
+            letter-spacing: 6px;
+        }
+    }
+}
+@media (max-width: 1000px) {
+    .content-start {
+        margin: 120px auto 0 auto;
+        height: 400px;
+        font-size: 13px;
+
+        h1 {
+            font-size: 40px;
+            line-height: 60px;
+            margin: 24px 0;
+        }
+        img {
+            width: 20px;
+            height: 14px;
+        }
+        h2 {
+            font-size: 12px;
+            letter-spacing: 4px;
+        }
+    }
+}
+@media (max-width: 768px) {
+    .content-start {
+        margin: 80px auto 0 auto;
+        height: 300px;
+        font-size: 10px;
+
+        h1 {
+            font-size: 36px;
+            line-height: 50px;
+            margin: 12px 0;
+        }
+        img {
+            width: 16px;
+            height: 10px;
+        }
+        h2 {
+            font-size: 8px;
+            letter-spacing: 3px;
+        }
+    }
+}
+@media (max-width: 480px) {
+    .content-start {
+        margin: 40px auto 0 auto;
+        height: 200px;
+        font-size: 8px;
+
+        h1 {
+            font-size: 20px;
+            line-height: 30px;
+            margin: 6px 0;
+        }
+        img {
+            width: 14px;
+            height: 8px;
+        }
+        h2 {
+            font-size: 6px;
+            letter-spacing: 2px;
+        }
+    }
+}

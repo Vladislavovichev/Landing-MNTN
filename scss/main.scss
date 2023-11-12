@@ -1,0 +1,76 @@
+@import './components/fonts';
+@import './components/header';
+@import './components/footer';
+@import './components/content';
+@import './components/content-wrapper-left';
+@import './components/content-wrapper-right';
+@import './components/content-start';
+
+html {
+    scroll-behavior: smooth;
+  }
+body {
+    background-color: rgb(10, 26, 34);
+    color: white;
+    font-family: 'Gilroy';
+    font-weight: 700;
+    margin: 0;
+}
+h1{
+    font-family: 'Chronicle-Display';
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+li {
+    list-style-type: none;
+}
+.page-wrapper{
+    background-color: #0B1D26;
+    margin: 0 auto;
+    max-width: 1920px;
+    background-image: url(../images/background.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-top: 58px;
+
+}
+.content-wrapper{
+    display: flex;
+    width: 92%;
+    margin: 0 auto;
+}
+.content-wrapper__middle{
+    flex: 1;
+}
+
+@media (max-width: 1920px) {
+    .page-wrapper {
+        padding-top: 46px;
+    }
+}
+@media (max-width: 1280px) {
+    .page-wrapper {
+        padding-top: 34px;
+    }
+}
+@media (max-width: 1000px) {
+    .page-wrapper {
+        padding-top: 26px;
+    }
+}
+@media (max-width: 768px) {
+    .page-wrapper {
+        padding-top: 20px;
+    }
+}
+@media (max-width: 480px) {
+    .page-wrapper {
+        padding-top: 12px;
+    }
+}
